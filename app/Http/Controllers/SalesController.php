@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Laravel\Http\Controllers;
 
-use App\Sales;
+use Laravel\Sales;
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use Laravel\Http\Requests;
+use Laravel\Http\Controllers\Controller;
 
 class SalesController extends Controller
 {

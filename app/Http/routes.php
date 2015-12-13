@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return 'caca';
+    return view('welcome');
 });
 
 Route::get('sales','SalesController@index');
