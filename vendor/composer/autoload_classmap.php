@@ -6,6 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Artisaninweb\\SoapWrapper\\Extension\\SoapService' => $vendorDir . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Extension/SoapService.php',
+    'Artisaninweb\\SoapWrapper\\Facade' => $vendorDir . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Facade.php',
+    'Artisaninweb\\SoapWrapper\\Facades\\SoapWrapper' => $vendorDir . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Facades/SoapWrapper.php',
+    'Artisaninweb\\SoapWrapper\\Service' => $vendorDir . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Service.php',
+    'Artisaninweb\\SoapWrapper\\ServiceProvider' => $vendorDir . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/ServiceProvider.php',
+    'Artisaninweb\\SoapWrapper\\Wrapper' => $vendorDir . '/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
     'ClassPreloader\\ClassList' => $vendorDir . '/classpreloader/classpreloader/src/ClassList.php',

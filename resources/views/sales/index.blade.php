@@ -2,11 +2,12 @@
 
 @section('content')
     <H1>Tableau des ventes</H1>
+
     @if(count($sales))
-    <table>
+    <table class="table table-bordered">
         <tr>
-            <td>ArticleID</td>
-            <td>Customer name</td>
+            <th>ArticleID</th>
+            <th>Customer name</th>
         </tr>
         @foreach( $sales as $sale )
         <tr>

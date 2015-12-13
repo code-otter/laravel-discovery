@@ -145,7 +145,8 @@ return [
         Laravel\Providers\EventServiceProvider::class,
         Laravel\Providers\RouteServiceProvider::class,
 
-        Collective\Html\HtmlServiceProvider::class
+        Collective\Html\HtmlServiceProvider::class,
+        Artisaninweb\SoapWrapper\ServiceProvider::class
 
     ],
 
@@ -197,6 +198,7 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         'Form'      => Collective\Html\FormFacade::class,
         'Html'      => Collective\Html\HtmlFacade::class,
+        'SoapWrapper' => Artisaninweb\SoapWrapper\Facades\SoapWrapper::class
 
     ],
 

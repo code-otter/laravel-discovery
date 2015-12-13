@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('sales','SalesController@index');
+
+Route::get('currency','CurrencyController@index');
+
+Route::get('currencys','CurrencyController@external');
